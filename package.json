@@ -1,9 +1,11 @@
 {
   "name": "node-express-mongodb",
   "version": "1.0.0",
-  "description": "Node.js Restful CRUD API with Node.js, Express and MongoDB",
+  "description": "Node.js Restful CRUD API with Node.js, Express, and MongoDB",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
+    "build": "echo \"No build step defined\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -13,7 +15,7 @@
     "api",
     "mongodb"
   ],
-  "author": "bezkoder",
+  "author": "group 9",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
